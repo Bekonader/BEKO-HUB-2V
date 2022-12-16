@@ -720,4 +720,42 @@ end
 
 })
 
+local damTab = Window:MakeTab({
+
+	Name = "DA HOOD MODEDD",	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+local Section = damTab:AddSection({
+
+	Name = "DA HOOD MODEDD"
+
+})
+
+damTab:AddButton({
+
+ Name = "AIM LOCK DA HOOD MODEDD",
+
+ Callback = function()
+
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/FDHKZY/Hood-Moddedaimlock/main/GU%C4%B0", true))()
+
+end
+
+})
+
+daTab:AddButton({
+
+ Name = "NUKER MOD",
+
+ Callback = function()
+
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Whitelist.txt"))()
+
+end
+
+})
+
 OrionLib:Init()
