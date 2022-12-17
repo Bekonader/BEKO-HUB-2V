@@ -758,4 +758,16 @@ end
 
 })
 
+sexTab:AddParagraph("comeing soon","it just comeing soon!")
+
+local crTab = Window:MakeTab({
+
+	Name = "CREDITS",	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+crTab:AddParagraph("Credits to","DEADSIDE#1676")
+
 OrionLib:Init()
