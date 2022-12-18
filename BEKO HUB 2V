@@ -24,7 +24,7 @@ game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:Invoke
 
 else
 
-----fuck
+--fuck--
 
 
 
