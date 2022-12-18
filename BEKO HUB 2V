@@ -80,7 +80,14 @@ hTab:AddButton({
 local args = {
 
     [1] = ";morph me DonaldTrump "
+}
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
 
+wait(0.1)
+
+local args = {
+
+    [1] = ";char"
 }
 
 game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
@@ -90,7 +97,14 @@ wait(0.1)
 local args = {
 
     [1] = ";morph me noob1 "
+}
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
 
+wait(0.1)
+
+local args = {
+
+    [1] = ";unchar"
 }
 
 game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
