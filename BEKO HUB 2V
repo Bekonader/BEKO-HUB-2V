@@ -803,6 +803,20 @@ local crTab = Window:MakeTab({
 
 crTab:AddParagraph("Credits to","DEADSIDE#1676")
 
+crTab:AddButton({
+
+ Name = "COPY DISCORD SERVER",
+
+ Callback = function()
+
+        setclipboard("https://discord.gg/c3fZ3Whs")
+
+end
+
+})
+
+
+
 OrionLib:Init()
 
 
