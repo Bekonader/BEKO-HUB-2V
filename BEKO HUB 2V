@@ -829,7 +829,30 @@ end
 
 })
 
+crTab:AddButton({
 
+ Name = "COPY YOUTUBE LINK",
+
+ Callback = function()
+
+       setclipboard("https://youtube.com/@BEKO_HUB")
+
+end
+
+})
+
+
+crTab:AddButton({
+
+ Name = "COPY ROBLOX NAME",
+
+ Callback = function()
+
+       setclipboard("beko_mod")
+
+end
+
+})
 
 OrionLib:Init()
 
