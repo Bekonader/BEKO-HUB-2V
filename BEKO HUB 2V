@@ -815,7 +815,7 @@ local crTab = Window:MakeTab({
 
 })
 
-crTab:AddParagraph("Credits to","DEADSIDE#1676")
+crTab:AddParagraph("Credits to","Krys#6926")
 
 crTab:AddButton({
 
@@ -823,7 +823,7 @@ crTab:AddButton({
 
  Callback = function()
 
-        setclipboard("https://discord.gg/c3fZ3Whs")
+        setclipboard("https://discord.gg/eVPfzR33")
 
 end
 
