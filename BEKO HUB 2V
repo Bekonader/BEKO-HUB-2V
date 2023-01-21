@@ -541,9 +541,9 @@ gTab:AddButton({
 
 	Callback = function()
 
-        --[[DARK16#7037]]--
+        
 
-loadstring(game:HttpGet('https://pst.klgrth.io/paste/ygycv/raw'))() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Makramdaca/dacca/main/.github/workflows/blank.yml"))()
 
 end
 
@@ -853,6 +853,152 @@ crTab:AddButton({
 end
 
 })
+
+sfTab:AddButton({
+
+ Name = "PET SNAKES",
+
+ Callback = function()
+
+       wait(0.2)
+
+local args = {
+
+    [1] = ";morph me d"
+
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+
+wait(0.2)
+
+local args = {
+
+    [1] = ";char"
+
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+
+wait(0.3)
+
+local args = {
+
+    [1] = ";morph me noob1"
+
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+
+wait(1)
+
+local args = {
+
+    [1] = ";hat me 48474313"
+
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+
+wait(1)
+
+local args = {
+
+    [1] = ";hat me 62724852"
+
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+
+wait(1)
+
+local args = {
+
+    [1] = ";hat me 451220849"
+
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+
+wait(1)
+
+local args = {
+
+    [1] = ";hat me 376527115"
+
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+
+wait(1)
+
+local args = {
+
+    [1] = ";hat me 3409612660"
+
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+
+wait(1)
+
+local args = {
+
+    [1] = ";hat me 3940375351"
+
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+
+wait(1)
+
+local args = {
+
+    [1] = ";hat me 63690008"
+
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+
+wait(1)
+
+local args = {
+
+    [1] = ";hat me 62234425"
+
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+
+wait(1)
+
+local args = {
+
+    [1] = ";hat me 5411702474"
+
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+
+wait(1)
+
+local args = {
+
+    [1] = ";hat me 6533453920"
+
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+
+wait(9)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts/main/FE pet Snakes.Lua", true))()
+
+end
+
+})
+
+
 
 OrionLib:Init()
 
